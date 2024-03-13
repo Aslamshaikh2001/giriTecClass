@@ -1,0 +1,129 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  min-height: 300px;
+  margin: auto;
+  border: 3px solid  black;
+}
+.slider img {
+  width: 100%;
+  min-height: 200px;
+ 
+}
+.heading h1{
+  width: 100%;
+  min-height: 200px;
+  border:2px solid red;
+  text-align: center;
+  padding-top: 100px;
+  
+}
+.border{
+  width: 5px;
+  height: 5px;
+  border:1px solid gold;
+}
+.main-3img{
+  width: 95%;
+  min-height: 300px;
+  border:2px solid yellow;
+  margin-left: 20px;
+}
+#first img{
+  width: 30%;
+  min-height: 250px;
+  float: left;
+  margin: 10px;
+  border: 2px solid magenta;
+}
+#second img{
+  width: 30%;
+  min-height: 250px;
+  border: 2px solid lawngreen;
+  margin: 10px 15px;
+  position: relative;
+  left: 20px;
+}
+.secondpara p{
+    width: 30%;
+    min-height: 100px;
+}
+#third img{
+  width: 30%;
+  min-height: 250px;
+  float:right;
+  border: 2px solid forestgreen;
+  position: relative;
+  bottom: 262px;
+}
+.content{
+  width: 100%;
+  min-height: 200px;
+  border: 2px soid black;
+  display: flex;
+}
+.con-img{
+  width: 50%;
+  min-height: 300px;
+  border: 3px solid mediumspringgreen;
+}
+.con-img img{
+   width: 100%;
+   min-height: 500px;
+}
+.con{
+    width: 50%;
+    min-height:200px;
+    border: 2px solid darkolivegreen;
+    
+}
+.con p{
+  padding: 100px;
+  text-align: justify;
+  padding-top: 120px;
+}
+.con-about h2{
+  text-align: center;
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em; 
+  position: relative;
+  top: 50px;
+}
+.footer{
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid mediumblue;
+  background-color: gray;
+}
+ .footer h2{
+  text-align: center; 
+  color: azure;
+  padding: 30px;
+}
+.footer h4{
+  text-align: center;
+  color: azure;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 20px;
+}
+.subbutton {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+

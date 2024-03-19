@@ -1,0 +1,109 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.box{
+    width: 80%;
+    min-height: 50px;
+    border: 2px solid black;
+    margin: auto;
+}
+nav{
+    width: 80%;
+    background-color: black;
+    min-height: 50px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+nav ul{
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color:azure;
+    font-size: 1.1vmax;
+    font-weight: bold;
+}
+#sectin1{
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+}
+#sectin1 h2{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+#sectin1 img{
+   width: 100%;
+   height: 100%;
+}
+#sectin2{
+    width: 100%;
+    height: 100%;
+    background-color:red;
+}
+#sectin2 h2{
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+#sectin2 img{
+    
+    width: 100%;
+    height: 100%;
+}
+#sectin3{
+    width: 100%;
+    height: 100%;
+    background-color: mediumvioletred;
+}
+#sectin3 h2{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+#sectin3 img{
+    width: 100%;
+    height: 100%;
+}
+#sectin4{
+    width: 100%;
+    height: 100%;
+    background-color: mediumorchid;
+}
+#sectin4 img{
+    width: 100%;
+    height:100%;
+}
+#sectin4 h2{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+#sectin5{
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+}
+#sectin5 h2{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+#sectin5 img{
+    width: 100%;
+    height: 100%;
+}

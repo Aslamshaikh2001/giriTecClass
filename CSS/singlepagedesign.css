@@ -38,7 +38,7 @@ nav ul li a{
 }
 #sectin1{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: royalblue;
 }
 #sectin1 h2{
@@ -56,7 +56,7 @@ nav ul li a{
     background-color:red;
 }
 #sectin2 h2{
-    padding-top: 70px;
+    padding-top: 50px;
     text-align: center;
     color: white;
 }
@@ -71,7 +71,7 @@ nav ul li a{
     background-color: mediumvioletred;
 }
 #sectin3 h2{
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     color: white;
 }
@@ -79,7 +79,7 @@ nav ul li a{
     width: 100%;
     height: 100%;
 }
-#sectin4{
+#sectin4{ 
     width: 100%;
     height: 100%;
     background-color: mediumorchid;
@@ -92,6 +92,7 @@ nav ul li a{
     padding-top: 50px;
     text-align: center;
     color: white;
+    
 }
 #sectin5{
     width: 100%;
@@ -99,7 +100,7 @@ nav ul li a{
     background-color: greenyellow;
 }
 #sectin5 h2{
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
     color: white;
 }

@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    grid-template-columns:
+    grid-template-rows:
+}
+.box1{
+     background-color: blue;
+       color: white;
+}
+.box2{
+    background-color: aqua;
+    color: white;
+}
+.box3{
+    background-color: brown;
+    color:white;
+
+}
+.box4{
+    background-color: chartreuse;
+    color: white;
+
+}
+.box5{
+    background-color: magenta;
+    color:white;
+}
+.box6{
+  background-color: blueviolet;
+  color: white;
+}

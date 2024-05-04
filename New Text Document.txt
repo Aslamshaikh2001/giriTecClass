@@ -1,0 +1,26 @@
+ global variable-
+               global variable are declared outside of function or block;
+ lifetime-
+               they exist entire duration of the program
+declaration-
+               global variable we can declared begining of program or in headder file;
+  
+               by default value of global variable is 0;
+
+
+local variable:
+               local variable declared inside the function or bock
+  lifetime - 
+               they exist only during  execution of the function or block
+declaration - 
+            * local variable only  use for temporary storage;
+            * by default value of local variable is garbage 
+             *local variabe memory allocate after calling function   
+
+static variable-
+                 * satitc variable we can declared inside or outside of funtction
+                 * by default value of static variable is 0
+                 * for use static variable we use static keyword
+    lifetime-
+              *  lifetime of static variable is still the termination of program
+   

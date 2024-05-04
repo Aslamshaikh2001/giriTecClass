@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.main_header_div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    flex-basis:50% ;
+    display: flex;
+    flex-direction: row;
+    background-color: mediumorchid;
+}
+.logo h2{
+    padding: 10px;
+    font-size: 2vmax;
+    color: white;
+   padding-top: 15px;
+}
+.menu{
+    flex-basis:50% ;
+    display: flex;
+    flex-direction: row;
+    background-color: mediumorchid;
+    padding-top: 5px;
+    min-height: 60px;
+    
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.menu ul li a:hover{
+    background-color: red;
+    padding: ;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 60px;
+    margin-top: 5px;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 200px;
+    
+ 
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 300px;
+    justify-content:space-around;
+    padding-top: 10px;
+}
+.box .b1{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    background-color: navy;
+    flex-basis: 30%;
+    color: white;
+}
+.box .b1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 5px;
+
+
+}
+footer h3{
+    color: white;
+}
+@media only screen and (max-width:768px){
+ .container{
+    width: 100%;
+
+ }
+ .main_header_div{
+    flex-direction: column;
+
+
+ }
+ .logo h2{
+    font-size: 1.3em;
+ }
+ .menu{
+
+ }
+ .menu ul{
+    flex-direction: column;
+    height:auto ;
+ }
+}
+,menu ul li a{
+  
+}
+.slider img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+.box{
+    flex-direction: column;
+    gap: 10px;
+}
+.footer{
+    width: 100%;
+    
+}

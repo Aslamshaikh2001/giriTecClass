@@ -1,0 +1,162 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.container{
+   width: 80%;
+   margin: auto;
+   min-height: 200px;
+   /* border: 2px solid black; */
+   display: grid;
+   margin-top: 10px;
+   
+  
+   grid-template-columns: repeat(5,1fr);
+   grid-template-rows: 60px 200px  auto 200px 60px;
+   grid-template-areas: "header  header header header header"
+                         "sidebar1 box1 box2 box3 sidebar2"
+                         "sidebar1 con con con sidebar2"
+                         "sidebar1 box4 box5 box6 sidebar2"
+                         "footer footer footer footer footer";
+                         
+grid-gap: 10px;
+}
+.header{
+    background-color: blue;
+    color: white;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 40px;
+    grid-template-areas: "logo menu";
+    padding: 10px;
+    grid-gap: 10px;
+    border-radius: 10px;
+}
+.logo{
+   
+    grid-area: logo;
+     width: 60%;
+}
+.menu{
+    grid-area: menu;
+    
+}
+.menu ul {
+    display:flex;
+    padding: 10px;
+    
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+
+    color: white;
+  padding: 10px;
+  text-decoration:none ;
+   list-style: none;
+   padding-top: 10px;
+   font-size: 1.3em;
+}
+.sidebar1{
+    background-color: aqua;
+    color: white;
+    grid-area:sidebar1 ;
+}
+.sidebar1 img{
+    width: 100%;
+    height: 100%;
+}
+.box1{
+    background-color:red;
+    color:white ;
+    grid-area:box1 ;
+    
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.box2{
+    background-color:orange;
+    color:white ;
+    grid-area:box2 ;
+    border-radius: 10px;
+}
+
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+.box3{
+    background-color:brown;
+    color:white ;
+    grid-area:box3 ;
+    border-radius: 10px;
+}
+.box3 img{
+    width: 100%;
+    height: 100%;
+}
+.sidebar2{
+    background-color:darkgreen;
+    color:white ;
+    grid-area: sidebar2;
+   
+}
+.sidebar2 img{
+    width: 100%;
+    height: 100%;
+ 
+}
+.con{
+    
+
+    grid-area:con ;
+}
+.con p{
+    padding: 5px;
+    text-align: justify;
+}
+.box4{
+    background-color:lightcoral;
+    color:white ;
+    grid-area:box4 ;
+}
+.box4 img{
+    width: 100%;
+    height: 100%;
+}
+.box5{
+    background-color:purple;
+    color:white ;
+    grid-area:box5 ;
+}
+.box5 img{
+    width: 100%;
+    height: 100%;
+}
+.box6{
+    background-color: darkolivegreen;
+    color:white ;
+    grid-area:box6 ;
+}
+.box6 img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background-color:black;
+    color: white;
+    grid-area:footer ;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.footer h2{
+    text-align: center;
+}
